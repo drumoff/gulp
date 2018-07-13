@@ -1,0 +1,19 @@
+{
+  "name": "testgit",
+  "version": "1.0.0",
+  "description": "gitCloneTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/drumoff/templateProjects.git"
+  },
+  "author": "drumoff",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-git": "^2.7.0"
+  }
+}
