@@ -1,19 +1,29 @@
 {
-  "name": "testgit",
+  "name": "pets",
   "version": "1.0.0",
-  "description": "gitCloneTest",
+  "description": "testgulp",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "\u0016https://github.com/drumoff/templateProjects.git"
-  },
-  "author": "drumoff",
+  "author": "yurec",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "browser-sync": "^2.24.5",
     "gulp": "^3.9.1",
-    "gulp-git": "^2.7.0"
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {
+    "bourbon": "^5.1.0",
+    "del": "^3.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-git": "^2.8.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^6.0.0"
   }
 }
